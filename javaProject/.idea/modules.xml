@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../relationshipsClasses/Enum-Generics/Enum-Generics.iml" filepath="$PROJECT_DIR$/../relationshipsClasses/Enum-Generics/Enum-Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../relationshipsClasses/docExample/docExample.iml" filepath="$PROJECT_DIR$/../relationshipsClasses/docExample/docExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../relationshipsClasses/exercise1/exercise1.iml" filepath="$PROJECT_DIR$/../relationshipsClasses/exercise1/exercise1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../relationshipsClasses/exercise2/exercise2.iml" filepath="$PROJECT_DIR$/../relationshipsClasses/exercise2/exercise2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finalExample.iml" filepath="$PROJECT_DIR$/finalExample.iml" />
+    </modules>
+  </component>
+</project>
