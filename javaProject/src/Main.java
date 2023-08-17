@@ -9,6 +9,9 @@ import java.util.Scanner;
  * when someone reserve a fly, there  id gonna be a list that shows user an fly that have reserve
  * i have to show thw two list in different order (age, id, a-z)
  * */
+
+// TODO add uml, enum, utilities, clean main, clean all classes and files, comment every thing
+// TODO also add testing folder and some unitary test
 public class Main {
     public static void main(String[] args) {
 

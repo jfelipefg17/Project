@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="723dc84a-29c7-4327-90f6-27a862b94b6a" name="Changes" comment="">
+    <list default="true" id="9c4ee637-ae3c-421f-bdc6-9768fc084d2c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../relationshipsClasses/exercise2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../relationshipsClasses/exercise2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../relationshipsClasses/exercise2/src/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../relationshipsClasses/exercise2/src/service/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2Tz7kzYREJdEH3X1W6Ogk5wk7w9" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2U4krr2sal4rJdJOHxZ9kCGlZOW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,35 +38,41 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/jfeli/OneDrive/Documents/Programming/Globant/java/relationshipsClasses",
+    "last_opened_file_path": "C:/Users/jfeli/OneDrive/Documents/Programming/Globant/java/relationshipsClasses/exercise2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/jfeli/OneDrive/Documents/Programming/Globant/java/relationshipsClasses/exercise2/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
+    "onboarding.tips.debug.path": "C:/Users/jfeli/OneDrive/Documents/Programming/Globant/java/relationshipsClasses/exercise3/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="723dc84a-29c7-4327-90f6-27a862b94b6a" name="Changes" comment="" />
-      <created>1691709895994</created>
+      <changelist id="9c4ee637-ae3c-421f-bdc6-9768fc084d2c" name="Changes" comment="" />
+      <created>1692206442212</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691709895994</updated>
-      <workItem from="1691709897046" duration="1779000" />
-      <workItem from="1692034210271" duration="10324000" />
+      <updated>1692206442212</updated>
+      <workItem from="1692206443180" duration="18124000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
