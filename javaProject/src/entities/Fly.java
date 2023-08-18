@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Fly {
+
     private String numFly;
     private int id;
     private boolean available;
@@ -11,7 +12,6 @@ public class Fly {
     private LocalTime time;
 
     public Fly () {
-
     }
 
     public Fly(String numFly, int id, boolean available, LocalDate date, LocalTime time) {

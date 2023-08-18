@@ -1,6 +1,5 @@
 import service.ServiceFly;
 import service.ServiceUser;
-
 import java.util.Scanner;
 
 /**
@@ -9,13 +8,11 @@ import java.util.Scanner;
  * when someone reserve a fly, there  id gonna be a list that shows user an fly that have reserve
  * i have to show thw two list in different order (age, id, a-z)
  * */
-
 // TODO add uml, enum, utilities, clean main, clean all classes and files, comment every thing
 // TODO also add testing folder and some unitary test
 public class Main {
     public static void main(String[] args) {
 
-        //
         Scanner num = new Scanner(System.in);
 
         ServiceUser user = new ServiceUser();
@@ -26,8 +23,8 @@ public class Main {
         int opt;
         int opt2;
 
-
         do {
+
             System.out.println("=================");
             System.out.println("1.  sing up user");
             System.out.println("=================");
@@ -46,13 +43,9 @@ public class Main {
                     System.out.println("wrong answer");
                     System.out.println("==================");
             }
-
-
-            // TODO see if i can use again ss boolean or if i have to use another variable
         }while (ss);
 
         fly.before();
-
 
         do {
             System.out.println();
@@ -61,6 +54,7 @@ public class Main {
             System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||");
             System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||");
             System.out.println("WELCOME TO THE MENU");
+
             System.out.println("1. create a fly");
             System.out.println("=================");
             System.out.println("2. see list of fly");

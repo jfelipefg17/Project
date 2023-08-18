@@ -6,9 +6,7 @@ public class User {
     private int age;
     private int id;
 
-
     public User () {
-
     }
 
     public User (String name, int age, int id) {

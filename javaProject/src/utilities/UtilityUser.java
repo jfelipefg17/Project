@@ -2,6 +2,6 @@ package utilities;
 
 public class UtilityUser {
 
-    // organice user list for a-z
-    // organice user list by age
+    // TODO organice user list for a-z
+    // TODO organice user list by age
 }
