@@ -8,8 +8,12 @@ import java.util.Scanner;
  * when someone reserve a fly, there  id gonna be a list that shows user an fly that have reserve
  * i have to show thw two list in different order (age, id, a-z)
  * */
-// TODO add uml, enum, utilities, clean main, clean all classes and files, comment every thing
-// TODO also add testing folder and some unitary test
+
+//  TODO search how to comment every thing good
+
+// TODO !!!!!!  also add testing folder and some unitary test and enum !!!!@!
+
+// TODO change that when i send x date if it is wrong stop the program , change to resend the message telling you first to change the information that is wrong
 public class Main {
     public static void main(String[] args) {
 
@@ -23,12 +27,19 @@ public class Main {
         int opt;
         int opt2;
 
+        // add users to the list
+        user.before();
+
         do {
 
             System.out.println("=================");
             System.out.println("1.  sing up user");
             System.out.println("=================");
-            System.out.println("2. exit");
+            System.out.println("2.  organize user list");
+            System.out.println("=================");
+            System.out.println("3. see list of users");
+            System.out.println("=================");
+            System.out.println("4. exit");
             System.out.println("=================");
             opt = num.nextInt();
 
@@ -37,6 +48,12 @@ public class Main {
                     user.singUpUser();
                     break;
                 case 2:
+                    user.organizeUser();
+                    break;
+                case 3:
+                    user.print();
+                    break;
+                case 4:
                     ss = false;
                     break;
                 default:
@@ -45,6 +62,7 @@ public class Main {
             }
         }while (ss);
 
+        //add fly to the HasMap
         fly.before();
 
         do {
@@ -63,7 +81,9 @@ public class Main {
             System.out.println("=================");
             System.out.println("4. delete a fly");
             System.out.println("=================");
-            System.out.println("5. exit");
+            System.out.println("5. organize fly list");
+            System.out.println("=================");
+            System.out.println("6. exit");
             opt2 = num.nextInt();
 
             switch (opt2) {
@@ -80,6 +100,9 @@ public class Main {
                     fly.deleteFly();
                     break;
                 case 5:
+                    fly.deleteFly();
+                    break;
+                case 6:
                     ss2 = false;
                     break;
                 default:

@@ -12,6 +12,7 @@ public class ServiceFly {
     private final Scanner read = new Scanner(System.in);
     private Random random = new Random();
 
+
     HashMap<String, Fly> flyList = new HashMap<>();
 
     public void before () {
@@ -36,7 +37,7 @@ public class ServiceFly {
         System.out.println("write mount of the fly (01-12) ");
         System.out.println("==================");
         int m = num.nextInt();
-        System.out.println("write day of the fly (01-12) ");
+        System.out.println("write day of the fly (01-31 'depends of the days of the month you choose') ");
         System.out.println("==================");
         int d = num.nextInt();
         int y = LocalDate.now().getYear();
@@ -56,7 +57,6 @@ public class ServiceFly {
     }
 
     public void showFly () {
-
         for ( Map.Entry<String,Fly> entry : flyList.entrySet()) {
             System.out.println();
             System.out.println("code fly" + entry.getKey() + "fly: " + entry.getValue());
@@ -119,4 +119,5 @@ public class ServiceFly {
             System.out.println("|||||||||||||||||||||||||||||||||||||||||||||");
         }
     }
+
 }
