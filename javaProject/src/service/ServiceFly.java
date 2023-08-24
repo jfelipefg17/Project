@@ -1,6 +1,7 @@
 package service;
 
 import entities.Fly;
+import Enum.TypeAirPlane;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -16,9 +17,9 @@ public class ServiceFly {
     HashMap<String, Fly> flyList = new HashMap<>();
 
     public void before () {
-        flyList.put("AAD512", new Fly("AAD512",23456,true,LocalDate.of(2023,10,28),LocalTime.of(2,35)));
-        flyList.put("ZZU098", new Fly("ZZU098",15432,true,LocalDate.of(2023,6,10),LocalTime.of(3,50)));
-        flyList.put("JFG432", new Fly("JFG432",87644,true,LocalDate.of(2023,4,8),LocalTime.of(6,5)));
+        flyList.put("AAD512", new Fly("AAD512",23456,true,LocalDate.of(2023,10,28),LocalTime.of(2,35),TypeAirPlane.AIRBUSA320.getAirPlane()));
+        flyList.put("ZZU098", new Fly("ZZU098",15432,true,LocalDate.of(2023,6,10),LocalTime.of(3,50), TypeAirPlane.BOEING737.getAirPlane()));
+        flyList.put("JFG432", new Fly("JFG432",87644,true,LocalDate.of(2023,4,8),LocalTime.of(6,54), TypeAirPlane.AIRBUSA320.getAirPlane()));
     }
     public void createFly () {
 
@@ -34,24 +35,30 @@ public class ServiceFly {
         int id = random.nextInt(max - min + 1);
         boolean ava = true;
         System.out.println("||||||| Date of the fly |||||||");
-        System.out.println("write mount of the fly (01-12) ");
-        System.out.println("==================");
-        int m = num.nextInt();
-        System.out.println("write day of the fly (01-31 'depends of the days of the month you choose') ");
-        System.out.println("==================");
-        int d = num.nextInt();
-        int y = LocalDate.now().getYear();
-        date = LocalDate.of(y,m,d);
-        System.out.println("||||| Duration of the fly |||||");
-        System.out.println("write mount of the fly (0-24) ");
-        System.out.println("==================");
-        int h = num.nextInt();
-        System.out.println("write day of the fly (0-60) ");
-        System.out.println("==================");
-        int mi= num.nextInt();
-        duration = LocalTime.of(h,mi);
-        flyList.put(code,new Fly(code,id,ava,date,duration));
-
+        System.out.println("write date of the fly in this order (year-month-day)");
+        System.out.println("                                      (0000-00-00)");
+        date = LocalDate.parse(read.nextLine());
+        System.out.println("write duration of the fly in this order (hours:minutes)");
+        System.out.println("                                           (00:00)");
+        duration = LocalTime.parse(read.nextLine());
+        System.out.println("||||||| Type Airplane |||||||");
+        System.out.println("1. Airbus-a320");
+        System.out.println("=================");
+        System.out.println("2. Boeing-737");
+        System.out.println("=================");
+        System.out.println("3. Boeing-747");
+        System.out.println("=================");
+        int opt = num.nextInt();
+        if (opt == 1) {
+            flyList.put(code,new Fly(code,id,ava,date,duration, TypeAirPlane.AIRBUSA320.getAirPlane()));
+        } else if (opt == 2) {
+            flyList.put(code,new Fly(code,id,ava,date,duration, TypeAirPlane.BOEING737.getAirPlane()));
+        } else if (opt == 3 ){
+            flyList.put(code,new Fly(code,id,ava,date,duration,TypeAirPlane.BOEING747.getAirPlane()));
+        } else {
+            System.out.println("you choose a wrong answer, manually your Airplane is a Boeing-737");
+            flyList.put(code,new Fly(code,id,ava,date,duration, TypeAirPlane.BOEING737.getAirPlane()));
+        }
         System.out.println("YOU ADD A NEW FLY");
         System.out.println("||||||||||||||||||||||||||||||||||||||||||||");
     }

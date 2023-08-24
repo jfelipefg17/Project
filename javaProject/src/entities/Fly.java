@@ -3,23 +3,25 @@ package entities;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Fly {
+public class Fly <T>{
 
     private String numFly;
     private int id;
     private boolean available;
     private LocalDate date;
     private LocalTime time;
+    private T typeAirPlane;
 
     public Fly () {
     }
 
-    public Fly(String numFly, int id, boolean available, LocalDate date, LocalTime time) {
+    public Fly(String numFly, int id, boolean available, LocalDate date, LocalTime time, T typeAirPlane) {
         this.numFly = numFly;
         this.id = id;
         this.available = available;
         this.date = date;
         this.time = time;
+        this.typeAirPlane = typeAirPlane;
     }
 
     public String getNumFly() {
@@ -62,6 +64,14 @@ public class Fly {
         this.time = time;
     }
 
+    public T getTypeAirPlane() {
+        return typeAirPlane;
+    }
+
+    public void setTypeAirPlane(T typeAirPlane) {
+        this.typeAirPlane = typeAirPlane;
+    }
+
     @Override
     public String toString() {
         return "Fly{" +
@@ -70,6 +80,7 @@ public class Fly {
                 ", available=" + available +
                 ", date=" + date +
                 ", time=" + time +
+                ", typeAirPlane=" + typeAirPlane +
                 '}';
     }
 }

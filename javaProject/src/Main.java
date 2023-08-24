@@ -11,8 +11,6 @@ import java.util.Scanner;
 
 //  TODO search how to comment every thing good
 
-// TODO !!!!!!  also add testing folder and some unitary test and enum !!!!@!
-
 // TODO change that when i send x date if it is wrong stop the program , change to resend the message telling you first to change the information that is wrong
 public class Main {
     public static void main(String[] args) {
