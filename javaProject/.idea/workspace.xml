@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c4ee637-ae3c-421f-bdc6-9768fc084d2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UML/firstUML.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/ServiceFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ServiceFly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ServiceUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/UtilityFly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/UtilityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/UtilityUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaProject.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jfeli/OneDrive/Documents/Programming/Globant/java/collection/sortCollections&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jfeli/OneDrive/Documents/Programming/Project/javaProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,6 +62,8 @@
       <workItem from="1692370567412" duration="898000" />
       <workItem from="1692371913648" duration="8374000" />
       <workItem from="1692747842746" duration="66000" />
+      <workItem from="1692914849643" duration="62000" />
+      <workItem from="1692981407714" duration="913000" />
     </task>
     <servers />
   </component>
